@@ -1,13 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 
+import './NavberSection.css'
+
 const NavberSection = () => {
 
     const Links =
         <>
-            <li><NavLink to='/'>Home</NavLink></li>
-            <li><NavLink to='register'>Register</NavLink></li>
-            <li><NavLink>Login</NavLink></li>
+            <li className='font-medium text-[1rem]'><NavLink to='/'>Home</NavLink></li>
+            <li className='font-medium text-[1rem]'><NavLink to='register'>Register</NavLink></li>
+            <li className='font-medium text-[1rem]'><NavLink to='login'>Login</NavLink></li>
         </>
 
 
